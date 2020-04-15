@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "RxKingfisher",
     platforms: [
-        .iOS(.v8), .tvOS(.v9), .macOS(.v10_11), .watchOS(.v3)
+        .iOS(.v10), .macOS(.v10_12), .tvOS(.v10), .watchOS(.v3)
     ],
     products: [
         .library(name: "RxKingfisher", targets: ["RxKingfisher"]),
